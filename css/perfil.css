@@ -1,0 +1,130 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(../img/FondoScreen2.png);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* Breadcrumb */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+/* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+/* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}  
+/* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+nav{
+    text-align: center;
+    align-items: center;
+}
+
+
+section {
+    margin: 20px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: rgba(11, 45, 236, 0.35);
+    border-radius: 20px;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background:  linear-gradient(135deg,#eb742f 0%,#3b240a 100%);
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgb(253, 253, 253);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    color: white;
+    background: linear-gradient(135deg,#68ff63 0%,#0c3b0a 100%);
+    /*opacity: 0.9*/;
+}
+.wrap:active {
+    color: white;
+    background: linear-gradient(135deg,#fffc63 0%,#798a18 100%);
+    /*opacity: 0.9*/;
+}
+
+.ico-wrap {
+    margin: auto;
+    color: white;
+}
+
+.ico-wrap span:hover {
+    color: white;
+}
+
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: black;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.mbr-iconfont:hover{
+    color: white;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+.ico-wrap .d-xl-block{
+    color: black;
+}
+.ico-wrap .d-xl-block:hover{
+    color: white;
+}
+ p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re}

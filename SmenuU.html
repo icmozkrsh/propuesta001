@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <link rel="stylesheet" type="text/css" href="./css/SmenuU.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/escudo.png" />
+    <title>SubMenú de usuario</title>
+</head>
+<body>
+    <!--Boton y barra de navegación-->
+    <div class="navegacion">
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-blue p-4"> <!--Color fondo desplegado-->
+                <h4 class="text-body">Sub menú de usuario</h4>
+                <span class="text-light">Seleccione la opción que requiera</span>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-warning"><!--Color Boton desplegado-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    <!--Breadcrumb-->
+                <!--div class="container-fluid" id="breadcrumb"-->
+                <div class="container" id="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./Acceso.html">Acceso</a></li>
+                        <li><a href="./perfil.html">Perfil de Usuario</a></li>
+                        <li>Menu de Usuario</li>
+                        <!--li><a href="#"></a></li-->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xm-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <!-- Tab navs -->
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                        <span class="fas fa-solid fa-house-user">   Dashboard</span>
+                    </a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                        <span class="fas fa-solid fa-graduation-cap">   Estudiantes</span>
+                    </a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                        <span class="fas fa-solid fa-credit-card">   Pagos</span>
+                    </a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                        <span class="fas fa-solid fa-calendar">   Calendario de Actividades</span>
+                    </a>
+                    <a class="nav-link" id="v-pills-messages2-tab" data-toggle="pill" href="#v-pills-messages2" role="tab" aria-controls="v-pills-messages2" aria-selected="false">
+                        <span class="fas fa-solid fa-bell">   Notificaciones</span>
+                    </a>
+                    <a class="nav-link" id="v-pills-messages3-tab" data-toggle="pill" href="#v-pills-messages3" role="tab" aria-controls="v-pills-messages3" aria-selected="false">
+                        <span class="fas fa-solid fa-qrcode">   Codigo QR</span>
+                    </a>
+                    <a class="nav-link" id="v-pills-messages4-tab" data-toggle="pill" href="#v-pills-messages4" role="tab" aria-controls="v-pills-messages4" aria-selected="false">
+                        <span class="fas fa-solid fa-user-check">   Administrar el Usuario</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xm-6 col-sm-6 col-md-8 col-lg-9 col-xl-9">
+                    <!-- Tab content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...
+                        <span class="fas fa-solid fa-house-user">   Dashboard</span>
+                        <div class="container-fluid"> <!--Contenido Dashboard-->
+                            <div class="row">
+                                <div class="col-xm-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <!--Usuario-->
+                                    <div id="cajausuario">
+                                        <span class="badge bg-danger ms-5">8</span>
+                                        <h2><span class="fas fa-solid fa-user-check d-flex align-items-center justify-content-center"></span></h2>
+                                        <p class="form-field  "><h4>LOPEZ CAMPOS GAEL</h4></p>
+                                    </div>
+                                    <!--Menu vertical usuario-->
+                                    <div class="container-fluid"> <!--para menu-->
+                                        <div class="row">
+                                            <div class="col-xm-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                                <div class="btn-group-vertical">
+                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-highlighter">   Calificaciones</span>
+                                                    </a>
+                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-folder">   Documentos      .</span>
+                                                    </a>
+                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-briefcase-medical">   Ficha Médica</span>
+                                                    </a>
+                                                    <a class="btn-sm btn-danger" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-door-open">   Cerrar Sesión</span>
+                                                    </a>
+                                                </div>
+                                            </div>            
+                                        </div>
+                                    </div>        
+                                </div>
+                                <div class="col-xm-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                                    <div id="accordion"> <!--acordeon-->
+
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                              Campus / Grado / Grupo
+                                            </a>
+                                          </div>
+                                          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                            <div class="card-body">
+                                              <p><b>Campus:</b> Esperanza <b>Grado:</b> 1o. Secundaria <b>Grupo: "A"</b></p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                              Fecha de Nacimiento
+                                            </a>
+                                          </div>
+                                          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                              16 / 02 / 2022
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                                Domicilio (Dirección):
+                                            </a>
+                                          </div>
+                                          <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Calle:, Número:, Colonia:, Municipio:, Estado:, CodigoPostal:, Entre calle:, y calle:, Referencia. 
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                    </div><!--acordeon-->
+                                </div>
+                            </div>
+                        </div> <!--Contenido Dashboard-->
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...
+                        <span class="fas fa-solid fa-graduation-cap">   Estudiantes</span>
+                        <div class="container-fluid"> <!--Contenido Estudiantes-->
+                            <div class="row">
+                                <div class="col-xm-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <!--Usuario-->
+                                    <div id="cajausuario">
+                                        <span class="badge bg-danger ms-5">8</span>
+                                        <h2><span class="fas fa-solid fa-user-check d-flex align-items-center justify-content-center"></span></h2>
+                                        <p class="form-field  "><h4>LOPEZ CAMPOS GAEL</h4></p>
+                                    </div>
+                                    <!--Menu vertical usuario-->
+                                    <div class="container-fluid"> <!--para menu-->
+                                        <div class="row">
+                                            <div class="col-xm-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                                <div class="btn-group-vertical">
+                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-highlighter">   Calificaciones</span>
+                                                    </a>
+                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-folder">   Documentos      .</span>
+                                                    </a>
+                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-briefcase-medical">   Ficha Médica</span>
+                                                    </a>
+                                                    <a class="btn-sm btn-danger" type="button" role="button" href="#">
+                                                        <span class="fas fa-solid fa-door-open">   Cerrar Sesión</span>
+                                                    </a>
+                                                </div>
+                                            </div>            
+                                        </div>
+                                    </div>        
+                                </div>
+                                <div class="col-xm-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                                    <div id="accordion"> <!--acordeon-->
+
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                              Calificaciones
+                                            </a>
+                                          </div>
+                                          <!--div id="collapseOne" class="collapse show" data-parent="#accordion"-->
+                                          <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                              <p><b>Campus:</b> Esperanza <b>Grado:</b> 1o. Secundaria <b>Grupo: "A"</b></p>
+                                                <div class="container-fluid d-flex align-items-center justify-content-center">
+                                                <!--Contenido  Tabla-->
+                                                    <table class="table table-info table-hover">
+                                                        <thead>
+                                                          <tr><!--Encabezados-->
+                                                            <th>Asignatura</th>
+                                                            <th>UR</th>
+                                                            <th>Unidad 1</th>
+                                                            <th>Unidad 2</th>
+                                                            <th>Unidad 3</th>
+                                                            <th>Unidad 4</th>
+                                                            <th>Unidad 5</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr><!--Primera fila-->
+                                                            <td>1°"A" Secundaria Matemáticas</td>
+                                                            <td>10</td>
+                                                            <td>9</td>
+                                                            <td>8</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                          </tr>
+                                                          <tr><!--Segunda fila-->
+                                                            <td>1°"A" Secundaria DSC</td>
+                                                            <td>10</td>
+                                                            <td>9</td>
+                                                            <td>8</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                          </tr>
+                                                          <tr><!--Tercera fila-->
+                                                            <td>1°"A" Secundaria Conserjería</td>
+                                                            <td>10</td>
+                                                            <td>9</td>
+                                                            <td>8</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                          </tr>
+                                                          <tr><!--Cuarta fila-->
+                                                            <td>1°"A" Secundaria Comunicación</td>
+                                                            <td>10</td>
+                                                            <td>9</td>
+                                                            <td>8</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                          </tr>
+                                                          <tr><!--Quinta fila-->
+                                                            <td>1°"A" Secundaria Ciencias</td>
+                                                            <td>10</td>
+                                                            <td>9</td>
+                                                            <td>8</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                          </tr>
+                                                          <tr><!--Sexta fila-->
+                                                            <td>1°"A" Secundaria Arte</td>
+                                                            <td>10</td>
+                                                            <td>9</td>
+                                                            <td>8</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </div>
+                                                </div>    <!--Finaliza contenido tabla-->
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                              Documentos
+                                            </a>
+                                          </div>
+                                          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                                    <!--Tabla documentos-->
+                                                    <p><b>Campus:</b> Esperanza <b>Grado:</b> 1o. Secundaria <b>Grupo: "A"</b></p>
+                                                <div class="container-fluid d-flex align-items-center justify-content-center">
+                                                <!--Contenido  Tabla-->
+                                                    <table class="table table-info table-hover">
+                                                        <thead>
+                                                          <tr><!--Encabezados-->
+                                                            <th>Documento</th>
+                                                            <th>Tipo/th>
+                                                            <th>Estatus</th>
+                                                            <th>Opciones</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr><!--Primera fila-->
+                                                            <td>CURP</td>
+                                                            <td>Alumno</td>
+                                                            <td>Por revisar</td>
+                                                            <td></td>
+                                                          </tr>
+                                                          <tr><!--Segunda fila-->
+                                                            <td>Acta de nacimiento</td>
+                                                            <td>Alumno</td>
+                                                            <td>Por revisar</td>
+                                                            <td></td>
+                                                          </tr>
+                                                          <tr><!--Tercera fila-->
+                                                            <td>Comprobante de domicilio</td>
+                                                            <td>Alumno</td>
+                                                            <td>No cargado</td>
+                                                            <td>
+                                                                <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                                    <span class="fas fa-solid fa-upload">   Cargar</span>
+                                                                </a>
+                                                            </td>
+                                                          </tr>
+                                                          <tr><!--Cuarta fila-->
+                                                                <td>Certificado Médico Público</td>
+                                                                <td>Alumno</td>
+                                                                <td>No cargado</td>
+                                                                <td>
+                                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                                        <span class="fas fa-solid fa-upload">   Cargar</span>
+                                                                    </a>
+                                                                </td>
+                                                          </tr>
+                                                          <tr><!--Quinta fila-->
+                                                            <td>Carta de no adeudo</td>
+                                                            <td>Alumno</td>
+                                                            <td>No cargado</td>
+                                                            <td>
+                                                                <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                                    <span class="fas fa-solid fa-upload">   Cargar</span>
+                                                                </a>
+                                                            </td>
+                                                          </tr>  
+                                                            <tr><!--Sexta fila-->
+                                                                <td>Certificado de primaria</td>
+                                                                <td>Alumno</td>
+                                                                <td>No cargado</td>
+                                                                <td>
+                                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                                        <span class="fas fa-solid fa-upload">   Cargar</span>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr><!--Septima fila-->
+                                                                <td>Carta de buena conducta</td>
+                                                                <td>Alumno</td>
+                                                                <td>No cargado</td>
+                                                                <td>
+                                                                    <a class="btn-sm btn-info" type="button" role="button" href="#">
+                                                                        <span class="fas fa-solid fa-upload">   Cargar</span>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>       
+                                                        </tbody>
+                                                      </table>
+                                                    </div>
+                                                    <!--Tabla documentos-->
+                                            </div>
+                                          </div>
+                                      
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                                Ficha Técnica
+                                            </a>
+                                          </div>
+                                          <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <span class="fas fa-solid fa-hand">  Este apartado está en construcción</span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                    </div><!--acordeon-->
+                                </div>
+                            </div>
+                        </div> <!--Contenido Estudiantes-->
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...
+                        <span class="fas fa-solid fa-credit-card">   Pagos</span>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...
+                        <span class="fas fa-solid fa-calendar">   Calendario de Actividades</span>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel" aria-labelledby="v-pills-messages2-tab">...
+                        <span class="fas fa-solid fa-bell">   Notificaciones</span>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages3" role="tabpanel" aria-labelledby="v-pills-messages3-tab">...
+                        <span class="fas fa-solid fa-qrcode">   Codigo QR</span>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages4" role="tabpanel" aria-labelledby="v-pills-messages4-tab">...
+                        <span class="fas fa-solid fa-user-check">   Administrar el Usuario</span>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-0 col-sm-0"></div>
+            <div class="col-xm-0 col-sm-0 col-md-0 col-lg-0 col-xl-0 d-flex justify-content-center align-items-center "></div>
+            <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 col-xl-3  d-flex justify-content-center align-items-center ">
+                <div class="container-prees">
+                    <div>
+                        <img class="img-fluid rounded-circle" alt="Responsive image" src="./img/preescolar.jpg">
+                    </div>
+                    <div class="d-flex text-align-center">
+                        <a href="./Acceso.html" class="btn btn-outline-dark" type="button"> 
+                            <p class="text-center"><i class="fa-solid fa-puzzle-piece fas">     Jardín de Niños.</i></p>
+                        </a>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 col-xl-3  d-flex justify-content-center align-items-center">
+                <div class="container-prim">
+                    <div>
+                        <img class="img-fluid rounded-circle" alt="Responsive image" src="./img/primaria.jpg">
+                    </div>
+                    <div class="d-flex text-align-center justify-content-center">
+                        <a href="./Acceso.html" class="btn btn-outline-dark" type="button"> 
+                            <p class="text-center"><i class="fa-solid fa-shapes fas">     Primaria.</i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 col-xl-3  d-flex justify-content-center align-items-center">
+                <div class="container-secun">
+                    <div>
+                        <img class="img-fluid rounded-circle" alt="Responsive image" src="./img/secun.jpg">
+                    </div>
+                    <div class="d-flex text-align-center justify-content-center">
+                        <a href="./Acceso.html" class="btn btn-outline-dark" type="button"> 
+                            <p class="text-center"><i class="fa-solid fa-child fas">     Secundaria.</i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 col-xl-3  d-flex justify-content-center align-items-center">
+                <div class="container-prepa">
+                    <div>
+                        <img class="img-fluid rounded-circle" alt="Responsive image" src="./img/prepa.jpg">
+                    </div>
+                    <div class="d-flex text-align-center justify-content-center">
+                        <a href="./Acceso.html" class="btn btn-outline-dark" type="button"> 
+                            <p class="text-center"><i class="fa-solid fa-graduation-cap fas">     Bachillerato.</i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>                
+            <div class="col-xm-0 col-sm-0 col-md-0 col-lg-0 col-xl-0 d-flex justify-content-center align-items-center "></div>
+            <div class="col-0 col-sm-0"></div>
+        </div>
+    </div>
+</section>
+
+
+    <!--div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Dashboard
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div>
+    <div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Estudiantes
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div>
+    <div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Pagos
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div><div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Calendario de Actividades
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div><div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Notificaciones
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div>
+    <div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Codigo QR
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div>
+    <div class="dropdown dropright">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Administrar Usuarios
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+    </div-->
+
+
+
+    <!--nav class="nav flex-column">
+        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#">Disabled</a>
+    </nav-->
+
+
+
+
+
+    <script src="/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7ef0da1715.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

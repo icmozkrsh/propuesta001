@@ -1,0 +1,80 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(../img/FondoScreen2.png);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+/*.tab-content #cajausuario span,p{
+  background-color: black;
+}
+.container-prees a{
+    color: black;
+}*/
+.navbar-yellow, .navbar-yellow:hover, .navbar-yellow:active {
+  color: rgb(239, 243, 11);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #950ee2;
+}
+.navegacion{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.nav #breadcrumb ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+/* Breadcrumb */
+ul.breadcrumb {
+    /*padding: 10px 16px;*/
+    list-style: none;
+    background-color: rgb(127, 187, 255);
+    font-weight: bold;
+    margin: 0;
+    color:white;
+    text-decoration: none;
+}
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+/* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    /*padding: 8px;*/
+    color: black;
+    content: "/\00a0";
+}
+/* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}  
+/* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+
+
+section {
+    width: 100%;
+    margin-top: 15vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    /*padding-top: 4rem;*/
+    /*padding-bottom: 4rem;*/
+    background-color: rgba(11, 45, 236, 0.35);
+    border-radius: 20px;
+}

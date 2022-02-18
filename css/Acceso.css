@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.mascara{
+    height: 100%;
+    border-radius: 15px;
+}
+/* Altura por Default para dispositivos pequeños */
+#FondoMascara{
+    height: 490px;
+}
+/* Altura para dispositivos más grandes que 992px */
+@media (min-width: 992px) {
+#FondoMascara{
+      height: 600px;
+    }
+}
+.user_card hr{
+    border-color: inherit;
+}
+.user_card {
+    height: 350px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: rgba(212, 148, 10, 0.7);
+    border-radius: 15px;
+    /*Logo de la Innova*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.brand_logo_container {
+    position: absolute;
+    height: 145px;/*Tamaño Sombra*/
+    width: 145px;/*Tamaño Sombra*/
+    top: -50px;/*Ubicación- desplazamiento hacia abajo de la sombra*/
+    border-radius: 50%; /*circunferencia sombra */
+    background: rgba(25, 8, 138, 0.4);/*Sombra*/
+    padding: 10px;/*Ubicación-desplazamiento de sombra*/
+    /*text-align: center;*/
+}
+.brand_logo {
+    height: 125px;/*Tamaño Logo*/
+    width: 125px;/*Tamaño Logo*/
+    border-radius: 50%;/*Circunferencia del logo*/
+    border: 4px solid #50b138;/*Borde Logo*/
+}
+.form_container {
+    margin-top: 65px;/*Distancia para texto*/
+}
+.input-group-text {
+    background: #50b138 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+/*.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}*/
+
+/* Breadcrumb */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+/* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+/* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}  
+/* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
